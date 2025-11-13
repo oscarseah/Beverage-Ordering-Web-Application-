@@ -1,0 +1,69 @@
+/* CSS for styling the login form */
+.login_form {
+    width: 360px;
+    padding: 20px;
+    margin: 0 auto; /* Center the form horizontally */
+    border-radius: 24px; /* Add curved borders */
+    overflow: hidden; /* Ensure curved borders are applied properly */
+    background-color: #fdffe3; /* Add background color */
+}
+
+.login_form h2 {
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.login_form p {
+    text-align: center; /* Center-align the paragraph */
+    margin-bottom: 20px; /* Add space below the paragraph */
+}
+
+.login_form label {
+    font-weight: bold; /* Make labels bold */
+}
+
+.login_form input[type="text"],
+.login_form input[type="password"] {
+    width: calc(100% - 20px); /* Make input fields take up 100% width minus padding */
+    padding: 10px; /* Add padding to input fields */
+    margin-bottom: 20px; /* Add space below input fields */
+    border-radius: 8px; /* Add curved borders to input fields */
+    border: 1px solid #ddd; /* Add border to input fields */
+}
+
+.form-group_submit {
+    width: 100%; /* Make submit button take up 100% width */
+    padding: 10px; /* Add padding to submit button */
+    border: none; /* Remove border from submit button */
+    border-radius: 8px; /* Add curved borders to submit button */
+    background-color: rgb(253, 255, 227); /* Add background color to submit button */
+    cursor: pointer; /* Add pointer cursor to submit button */
+    transition: background-color 0.2s; /* Add transition effect for background color */
+	margin-bottom: 7px;
+    margin-top: -13px;
+}
+
+
+
+.login_form .invalid-feedback {
+    color: #ff0000; /* Set color for error messages */
+}
+
+.login_form .alert {
+    margin-bottom: 20px; /* Add space below the alert message */
+}
+
+/* Additional styles for link */
+.login_form a {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove default underline */
+    display: block; /* Display links as block elements */
+    text-align: center; /* Center-align links */
+    margin-top: 20px; /* Add space above links */
+	color: blue; /* Change the color of the link */
+}
+
+
+.login_form a:hover {
+    color: darkblue; /* Change the color of the link on hover */
+}

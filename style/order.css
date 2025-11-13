@@ -1,0 +1,54 @@
+/* CSS for styling the order table */
+.product_table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Align the table to the center */
+    border-radius: 24px; /* Add curved borders */
+    overflow: hidden; /* Ensure curved borders are applied properly */
+}
+
+.product_table  th, .product_table  td {
+    padding: 10px; /* Add padding to table cells */
+    text-align: center; /* Center-align text in table cells */
+    border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+}
+
+.product_table  th {
+    background-color: #fdffe3; /* Add a background color to table headers */
+}
+
+/* Style alternating rows */
+.product_table  tr {
+    background-color: #fff9e4; /* Add a background color to even rows */
+}
+
+/* Style links within table cells */
+.product_table  a {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove default underline */
+}
+.order_button {
+    cursor: pointer;
+    margin-top: 0px;
+    height: 40px;
+    width: 140px;
+    font-weight: bold;
+    line-height: 18px; /* Match the height of the button */
+    border-radius: 10px;
+    transition: all 0.2s;
+    background-color: rgb(251, 251, 217);
+    border-color: rgb(255, 255, 200);
+    margin: 8px;
+    text-align: center; /* Center-align text horizontally */
+    display: inline-block; /* Ensure inline-block display for centering */
+	margin-bottom: 18px;
+    margin-top: 15px;
+}
+}
+
+.order_button:hover {
+    background-color: rgb(251, 251, 217);
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    border: 1px solid rgb(255, 152, 0);
+    color: rgb(255, 152, 0);
+}

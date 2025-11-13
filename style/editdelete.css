@@ -1,0 +1,48 @@
+.edit-quantity-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.edit-quantity-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.edit-quantity-container h2,
+.edit-quantity-container p,
+.edit-quantity-container .row {
+    margin-bottom: 10px;
+}
+
+.edit-quantity-container input[type="number"] {
+    padding: 5px;
+    width: 65px;
+}
+
+.edit-quantity-container input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.edit-quantity-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.row {
+    display: block;
+    margin-bottom: 10px; /* Adjust as needed */
+}

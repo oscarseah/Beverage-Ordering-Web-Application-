@@ -1,0 +1,77 @@
+/* CSS for styling the item detail page */
+
+/* Style for the main heading */
+.h1 {
+    text-align: center;
+    padding: 25px;
+}
+
+/* Style for the image */
+.img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item_image{
+	margin:20px;
+}
+
+/* Style for the table */
+.product_detail_table {
+	width: 95%;
+    border-collapse: collapse;
+    margin: 0 auto; 
+    border-radius: 20px; 
+    overflow: hidden; 
+	background-color:#fefff0;
+}
+
+.product_detail_table th, 
+.product_detail_table td {
+    padding: 10px; /* Add padding to table cells */
+    text-align: center; /* Center-align text in table cells */
+    border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+}
+
+.product_detail_table th {
+    background-color: #fdffe3; /* Add a background color to table headers */
+}
+
+/* Style links within table cells */
+.product_detail_table a {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Hover effect on links */
+.product_detail_table a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+/* Style for the form */
+.add_wishlist {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.add_wishlist input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+.add_wishlist input[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+	margin: 23px;
+}
+
+.add_wishlist input[type="submit"]:hover {
+    background-color: #45a049;
+}

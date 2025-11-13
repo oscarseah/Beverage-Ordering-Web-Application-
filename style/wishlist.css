@@ -1,0 +1,120 @@
+/* CSS for styling the product table */
+.product_table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Align the table to the center */
+    border-radius: 24px; /* Add curved borders */
+    overflow: hidden; /* Ensure curved borders are applied properly */
+}
+
+.product_table th, .product_table td {
+    padding: 10px; /* Add padding to table cells */
+    text-align: center; /* Center-align text in table cells */
+    border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+}
+
+.product_table th {
+    background-color: #fdffe3; /* Add a background color to table headers */
+}
+
+/* Style alternating rows */
+.product_table tr {
+    background-color: #fff9e4; /* Add a background color to even rows */
+}
+
+/* Style the image column */
+.product_table td img {
+    max-width: 100px; /* Limit the maximum width of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Style the name column */
+.product_table td:nth-child(2) {
+    font-weight: bold; /* Make the name bold */
+}
+
+/* Style the unit price column */
+.product_table td:nth-child(3) {
+    color: #007bff; /* Change the color of the unit price */
+}
+
+/* Style the quantity column */
+.product_table td:nth-child(4) {
+    color: #28a745; /* Change the color of the quantity */
+}
+
+/* Style the total price column */
+.product_table td:nth-child(5) {
+    font-weight: bold; /* Make the total price bold */
+    color: #dc3545; /* Change the color of the total price */
+}
+
+/* Style the action column */
+.product_table td:nth-child(6) {
+    font-size: 14px; /* Adjust the font size of the action */
+}
+
+#totalPrice{
+	padding:20px;
+}
+
+.checkout_button {
+    cursor: pointer;
+    margin-top: 0px;
+    height: 40px;
+    width: 105px;
+    font-weight: bold;
+    line-height: 18px; /* Match the height of the button */
+    border-radius: 10px;
+    transition: all 0.2s;
+    background-color: rgb(251, 251, 217);
+    border: 1px solid rgb(255, 255, 200); /* Add border property */
+    margin-bottom: 18px;
+    text-align: center; /* Center-align text horizontally */
+    display: inline-block; /* Ensure inline-block display for centering */
+}
+
+.checkout_button:hover {
+    background-color: rgb(251, 251, 217);
+    box-shadow: 0 2px 15px rgb(250, 120, 69);
+    border: 1px solid rgb(255, 152, 0);
+    color: rgb(255, 152, 0); /* Correct the colon to a semicolon */
+}
+
+
+/* Style the edit and delete buttons */
+.product_table td:nth-child(6) a {
+    color: #007bff; /* Change the color of the button text */
+    text-decoration: none; /* Remove underline */
+    padding: 5px 10px; /* Add padding to the button */
+    border: 1px solid #007bff; /* Add border */
+    border-radius: 5px; /* Add border radius */
+    margin-right: 5px; /* Add margin between buttons */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Add transition effect */
+}
+
+.product_table td:nth-child(6) a:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
+
+.edit-button,
+.delete-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+

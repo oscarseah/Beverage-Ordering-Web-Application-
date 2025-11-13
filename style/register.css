@@ -1,0 +1,95 @@
+/* CSS for styling the registration form */
+.container{
+	width: 420px;
+    padding: 13px;
+}
+
+.register_form {
+    width: 360px;
+    padding: 20px;
+    margin: 0 auto; /* Center the form horizontally */
+    border-radius: 24px; /* Add curved borders */
+    overflow: hidden; /* Ensure curved borders are applied properly */
+    background-color: #fdffe3; /* Add background color */
+}
+
+.register_form h2 {
+    text-align: center; /* Center-align the heading */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+.register_form p {
+    text-align: center; /* Center-align the paragraph */
+    margin-bottom: 20px; /* Add space below the paragraph */
+}
+
+.register_form label {
+    font-weight: bold; /* Make labels bold */
+}
+
+.register_form input[type="text"],
+.register_form input[type="password"] {
+    width: calc(100% - 20px); /* Make input fields take up 100% width minus padding */
+    padding: 10px; /* Add padding to input fields */
+    margin-bottom: 20px; /* Add space below input fields */
+    border-radius: 8px; /* Add curved borders to input fields */
+    border: 1px solid #ddd; /* Add border to input fields */
+}
+
+.register_form input[type="submit"],
+.register_form input[type="reset"] {
+    width: 35%; /* Make submit and reset buttons take up 100% width */
+    padding: 10px; /* Add padding to buttons */
+    border: none; /* Remove border from buttons */
+    border-radius: 8px; /* Add curved borders to buttons */
+    background-color: rgb(38, 94, 223); /* Add background color to buttons */
+    cursor: pointer; /* Add pointer cursor to buttons */
+    transition: background-color 0.2s; /* Add transition effect for background color */
+    margin-bottom: 10px; /* Add margin below buttons */
+}
+
+.register_form input[type="submit"]:hover,
+.register_form input[type="reset"]:hover {
+    background-color: rgb(255, 152, 0); /* Change background color on hover */
+}
+
+.register_form .invalid-feedback {
+    color: #ff0000; /* Set color for error messages */
+}
+
+.register_form .alert {
+    margin-bottom: 20px; /* Add space below the alert message */
+}
+
+/* Additional styles for link */
+.register_form a {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove default underline */
+    display: block; /* Display links as block elements */
+    text-align: center; /* Center-align links */
+    margin-top: 20px; /* Add space above links */
+    color: blue; /* Change the color of the link */
+}
+
+.register_form a:hover {
+    color: darkblue; /* Change the color of the link on hover */
+}
+
+/* Additional styles for table */
+.register_form table {
+    width: 100%; /* Make table take up 100% width */
+    border-collapse: collapse; /* Collapse table borders */
+    margin-bottom: 20px; /* Add space below the table */
+}
+
+.register_form th,
+.register_form td {
+    padding: 8px; /* Add padding to table cells */
+    border: 1px solid #ddd; /* Add border to table cells */
+    text-align: left; /* Align text to the left within cells */
+}
+
+.register_form th {
+    background-color: #f2f2f2; /* Add background color to table header cells */
+    font-weight: bold; /* Make table header text bold */
+}

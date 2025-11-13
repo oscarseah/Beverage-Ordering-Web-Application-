@@ -1,0 +1,72 @@
+/* editdelete.css */
+
+/* Container for form elements */
+.container {
+    width: 420px;
+    padding: 13px;
+}
+
+/* Form styling */
+.edit-form-container {
+    width: 420px;
+    padding: 20px;
+    margin: 45px auto;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #fdffe3;
+}
+
+.edit-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.edit-form-container label {
+    font-weight: bold;
+}
+
+.edit-form-container input[type="text"],
+.edit-form-container input[type="number"],
+.edit-form-container input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Adjusting the size of the textarea */
+.edit-form-container textarea {
+    width: calc(100% - 20px); /* Adjusting the width */
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    resize: vertical; /* Allowing vertical resizing */
+}
+
+.edit-form-container input[type="submit"] {
+    width: 35%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 240, 173);
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 10px;
+}
+
+.edit-form-container input[type="submit"]:hover {
+    background-color: rgb(255, 152, 0);
+}
+
+/* Error message */
+.error-message {
+    color: #ff0000;
+    margin-top: 5px;
+}
+
+/* Hide/show new picture input */
+#NewPicDiv {
+    display: none;
+}

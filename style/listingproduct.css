@@ -1,0 +1,165 @@
+/* CSS for styling the product table */
+.product-table {
+    width: 95%;
+    border-collapse: collapse;
+    margin: 0 auto; /* Align the table to the center */
+    border-radius: 24px; /* Add curved borders */
+    overflow: hidden; /* Ensure curved borders are applied properly */
+}
+
+.product-table th, .product-table td {
+    padding: 10px; /* Add padding to table cells */
+    text-align: center; /* Center-align text in table cells */
+    border-bottom: 1px solid #ddd; /* Add bottom border to table cells */
+}
+
+.product-table th {
+    background-color: #fdffe3; /* Add a background color to table headers */
+}
+
+/* Style alternating rows */
+.product-table tr {
+    background-color: #fff9e4; /* Add a background color to even rows */
+}
+
+/* Style links within table cells */
+.product-table a {
+    color: inherit; /* Inherit the color from the parent */
+    text-decoration: none; /* Remove default underline */
+}
+
+/* Hover effect on links */
+.product-table a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.add_button{
+	cursor:pointer;
+	margin-top:15px;
+	width:160px;
+	font-weight:bold;
+	line-height:50px;
+	border-radius:10px;
+	transition:all 0.2s;
+	background-color: rgb(251, 251, 217);
+	border-color: rgb(255, 255, 200);
+	margin-bottom:18px;
+}
+
+.add_button:hover{
+	background-color:rgb(251, 251, 217);
+	box-shadow:0 2px 15px rgb(250,120,69);
+	border:1px solid rgb(255,152,0);
+	color:rgb(255,152,0):
+}
+
+.buy_button {
+	font-size:13px;
+    display: inline-block; /* or display: block; */
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    background-color: rgb(255, 255, 210);
+    border-color: rgb(255, 255, 200);
+    margin-bottom: 18px;
+}
+
+.buy_button:hover{
+	background-color:rgb(251, 251, 217);
+	box-shadow:0 2px 15px rgb(250,120,69);
+	border:1px solid rgb(255,152,0);
+	color:rgb(255,152,0):
+}
+
+.edit_button{
+	font-size:13px;
+	display: inline-block; /* or display: block; */
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    background-color: rgb(255, 255, 210);
+    border-color: rgb(255, 255, 200);
+    margin-bottom: 18px;
+}
+
+.edit_button:hover{
+	background-color:rgb(251, 251, 217);
+	box-shadow:0 2px 15px rgb(250,120,69);
+	border:1px solid rgb(255,152,0);
+	color:rgb(255,152,0):
+}
+
+.hide_button{
+	font-size:13px;
+    display: inline-block; /* or display: block; */
+    width: 100px;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 10px;
+    transition: all 0.2s;
+    background-color: rgb(255, 255, 210);
+    border-color: rgb(255, 255, 200);
+    margin-bottom: 18px;
+}
+}
+
+.hide_button:hover{
+	background-color:rgb(251, 251, 217);
+	box-shadow:0 2px 15px rgb(250,120,69);
+	border:1px solid rgb(255,152,0);
+	color:rgb(255,152,0):
+}
+
+/* CSS for styling the hidden product table */
+.hidden-product {
+    margin-top: 30px;
+}
+
+.hidden-product h1 {
+    padding: 25px;
+    text-align: center;
+}
+
+.hide_product_table {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border-radius: 24px;
+    overflow: hidden;
+    background-color: #fdffe3;
+}
+
+.hide_product_table th,
+.hide_product_table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.hide_product_table th {
+    background-color: #f2f2f2;
+}
+
+.hide_product_table tr {
+    background-color: #fff9e4;
+}
+
+.hide_product_table a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hide_product_table a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,36 @@
+.footer footer{
+	background-color:rgb(252, 255, 224);
+	width: 100%;
+}
+
+.foot{
+	width: 100%;
+	background-color: rgb(252, 255, 224);
+	text-align: center;
+}
+
+.colorlink:visited{
+	color:#767676;
+}
+
+.colorlink:hover{
+	color: #767676;
+}
+
+.colorlink {
+    text-decoration: none;
+}
+
+.footer p {
+	font-weight: lighter;
+    color: #767676;
+	text-align: center;
+	font-size: 16px;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #f7ecdb;
+    text-align: center;
+}
